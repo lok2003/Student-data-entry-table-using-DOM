@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84a4aa;
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #939653;
+    padding: 15px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.998);
+}
+input,textarea,button,#class{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+input:focus,textarea:focus{
+    outline:none;
+    border-color: #df0505;
+}
+
+button{
+    background-color: #007bff;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+button:hover{
+    background-color: #0056b3;
+}
+#searchInput{
+    padding: 10px;
+    width: 400px;
+    max-width: 100%;
+    margin: 3%;
+    border: 2px solid rgb(208, 170, 255);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0,0,1,0.5);
+}
+thead{
+    background-color: #007bff;
+    color: #fff;
+}
+th,td{
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+td button{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    opacity: 0.6;
+}
+td button:first-child{
+    background-color: #ffc107;
+    color: black;
+}
+td button:last-child{
+    background-color: #dc3545;
+    color: white;
+}
+td button:hover{
+    opacity: 1;
+}
